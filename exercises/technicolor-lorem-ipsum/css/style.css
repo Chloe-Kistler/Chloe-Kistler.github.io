@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#paragraph-1 {
+    background-color: rgba(184, 15, 15, 0.964);
+}
+
+#span-1 {
+    color: red;
+}
+
+#span-2 {
+    color: rgba(255, 0, 0, 0.849);
+}
+
+#span-3 {
+    color: rgba(255, 0, 0, 0.637);
+}
+
+#span-4 {
+    color: rgba(255, 0, 0, 0.382);
+}
+
+#paragraph-2 {
+    background-color: orangered;
+}
+
+#span-5 {
+    color: rgb(255, 140, 0);
+}
+
+#span-6 {
+    color: rgba(255, 140, 0, 0.811);
+}
+
+#span-7 {
+    color: rgba(255, 140, 0, 0.543);
+}
+
+#span-8 {
+    color: rgba(255, 140, 0, 0.321);
+}
+
+#paragraph-3 {
+    background-color: rgb(255, 225, 31);
+}
+
+#span-9 {
+    color: yellow;
+}
+
+#span-10 {
+    color: rgba(255, 255, 0, 0.816);
+}
+
+#span-11 {
+    color: rgba(255, 255, 0, 0.57);
+}
+
+#span-12 {
+    color: rgba(255, 255, 0, 0.42);
+}
+
+#paragraph-4 {
+    background-color: green;
+}
+
+#span-13 {
+    color: rgb(82, 255, 82);
+}
+
+#span-14 {
+    color: rgba(82, 255, 82, 0.825);
+}
+
+#span-15 {
+    color: rgba(82, 255, 82, 0.639);
+}
+
+#span-16 {
+    color: rgba(82, 255, 82, 0.429);
+}
+
+#paragraph-5 {
+    background-color: blue;
+}
+
+#span-17 {
+    color: rgb(9, 9, 173);
+}
+
+#span-18 {
+    color: rgba(9, 9, 173, 0.849);
+}
+
+#span-19 {
+    color: rgba(9, 9, 173, 0.597);
+}
+
+#span-20 {
+    color: rgba(9, 9, 173, 0.397);
+}
