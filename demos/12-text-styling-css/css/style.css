@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* 
+    Font weight- bold, light etc. Text decoration-un
+    underline, linethrough etc.
+*/
+#span-1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#span-2 {
+    font-style: italic;
+    text-decoration: underline dotted red; 
+}
+/* Text Sizing */
+#big-paragraph {
+    font-size: 18px;
+}
+/* Fonts & Text Align*/
+#ff-1 {
+    font-family: serif;
+    text-align: left;
+}
+
+#ff-2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#ff-3 {
+    font-family: monospace;
+    text-align: right;
+}
+
+#ff-4 {
+    font-family: cursive;    
+}
+
+#ff-5 {
+    font-family: fantasy;
+}
+
+/* anchor changes */
+
+#no-underline {
+    text-decoration: none;
+    color: rgb(255, 56, 255);
+}
+
+/* divs and images */
+
+#image-align {
+    width: 100px;
+    /* 
+    DO NOT DO THIS!-ALIGN CONTAINERS NOT
+    ITEMS IN CONTAINERS!
+     */
+    text-align: center;
+}
+
+/* THIS IS THE CORRECT WAY! */
+
+#alignment-text {
+    text-align: center;
+}
+
+
+
