@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#red-paragraph {
+    color: red;
+}
+
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 20px blue;
+    /* first two #px represent x and y-offsets */
+    /* third #px represents blur radius */
+    /* 
+    inset makes the opposite effect. makes content appear
+    inward
+     */
+}
+
+p {
+    font-size: 20px;
+}
