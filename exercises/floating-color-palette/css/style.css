@@ -32,7 +32,7 @@ body {
     padding: 24px;
 }
 
-#body-color {
+body {
     background-color: rgb(255, 238, 215);
 }
 
@@ -59,4 +59,3 @@ body {
 #color-9 {
     background-color: #E6AA68;
 }
-
