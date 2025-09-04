@@ -12,6 +12,9 @@ body {
     min-height: 100vh;
     background-color: #838383;
     font-size: 0px;
+    margin: 20px;
+    transform: rotate(180deg);
+
 }
 
 .block {
