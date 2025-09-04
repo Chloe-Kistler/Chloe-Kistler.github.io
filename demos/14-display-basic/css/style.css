@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* differences in display: block,inline and inline-block */
+span {
+    background-color: lightsalmon;
+    /* display: block; */
+}
+
+div {
+    background-color: lightgreen;
+    /* display: inline; */
+}
+
+.narrow {
+    width: 200px;
+    display: inline-block;
+    margin: 24px
+}
