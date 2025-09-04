@@ -9,7 +9,7 @@ body {
 
 #container {
     width: 500px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #838383;
     font-size: 0px;
 }
@@ -19,30 +19,43 @@ body {
     width: 100px;
     height: 100px;
     background-color: lightgray;
+    border-width: 20px;
+    border-style: outset
 }
 
 .red {
     background-color: red;
+    border-color: red;
+    background: linear-gradient(to top left, red, rgb(207, 4, 4));
 }
 
 .green {
     background-color: green;
+    border-color: green;
+    background: linear-gradient(to top left, green, rgb(1, 105, 1));
 }
 
 .blue {
     background-color: blue;
+    border-color: blue;
+    background: linear-gradient(to top left, blue, rgb(1, 1, 194));
 }
 
 .yellow {
     background-color: yellow;
+    border-color: yellow;
+    background: linear-gradient(to top left, yellow, rgb(189, 189, 3));
 }
 
 .purple {
     background-color: purple;
+    border-color: purple;
+    background: linear-gradient(to top left, purple, rgb(92, 1, 92));
 }
 
 .empty {
     background-color: #838383;
+    border-width: 0px;
 }
 
 
