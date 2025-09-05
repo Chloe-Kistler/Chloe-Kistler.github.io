@@ -18,10 +18,10 @@
     height: 150px;
     font-size: 12px;
     box-shadow: 2px 2px 8px;
-    
 }
 
 .thumbnail {
+    display: inline-block;
     background-color: silver;
     width: 20px;
     height: 20px;
@@ -51,6 +51,7 @@
     height: 100%;
     padding: 0px;
     margin: 0px;
+    object-fit: cover;
 }
 
 h3 {
