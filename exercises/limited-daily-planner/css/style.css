@@ -81,4 +81,8 @@ ul {
 
 #evening .important {
     background-color: #0e7b8a49;
+    box-shadow: 
+        0px 0px 8px #0E7C8A,
+        inset 0px 0px 8px #0E7C8A;
+        padding: 8px;
 }
