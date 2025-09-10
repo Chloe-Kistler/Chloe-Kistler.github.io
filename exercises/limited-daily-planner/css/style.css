@@ -33,6 +33,7 @@ ul {
 
 h2 {
     font-size: 24px;
+    padding-left: 28px;
 }
 
 ul {
@@ -63,6 +64,7 @@ ul {
 #afternoon .important,
 #evening .important {
     color: rgb(246, 89, 89);
+    font-weight: bold;
 }
 
 #morning .button {
@@ -75,4 +77,8 @@ ul {
 
 #evening .button {
     background-color: #0E7C8A;
+}
+
+#evening .important {
+    background-color: #0e7b8a49;
 }
