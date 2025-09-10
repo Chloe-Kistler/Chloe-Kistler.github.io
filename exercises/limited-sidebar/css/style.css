@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     padding: 24px;
 }
-
+/* descendant selectors */
 #sidebar .chapter {
     font-size: 24px;
     font-weight: bold;
