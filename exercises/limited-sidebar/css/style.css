@@ -20,11 +20,11 @@ body {
     font-weight: bold;
 }
 
-.edit {
+#sidebar .edit {
     color: orange;
     font-style: italic;
 }
 
-.chapter.edit {
+#sidebar .chapter.edit {
     color: red;
 }
