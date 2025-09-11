@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.928);
+    color: white;
+}
+
+#single-column {
+    background-color: rgba(0, 0, 0, 0.928);
+    max-width: 700px;
+    margin: 48px auto;
+    border: 5px solid red;
+    border-radius: 24px;
+    box-shadow: 0px 0px 36px red;
+    padding: 24px;
+}
+
+#author {
+    border-bottom: 4px solid rgba(255, 0, 0, 0.58);
+    padding-bottom: 12px;
+}
+
+#single-column img {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#single-column .bottom-img {
+    display: inline-block;
+    width: 300px;
+    padding-top: 36px;
+}
+
+#single-column .last-img {
+    width: 100%;
+}
+
+#single-column h4 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
