@@ -16,31 +16,50 @@ body {
     border: 5px solid red;
     border-radius: 24px;
     box-shadow: 0px 0px 36px red;
-    padding: 24px;
+    padding: 24px 36px 24px 36px;
 }
-
+/* author and date html */
 #author {
-    border-bottom: 4px solid rgba(255, 0, 0, 0.58);
-    padding-bottom: 12px;
+    font-style: italic;
+    font-size: 16px;
 }
-
+/* main 3 images */
 #single-column img {
     width: 100%;
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
+/* bottom 3 images */
 #single-column .bottom-img {
     display: inline-block;
     width: 300px;
     padding-top: 36px;
+    padding-left: 12px;
 }
 
 #single-column .last-img {
     width: 100%;
 }
-
+/* h4 headers */
 #single-column h4 {
     padding-top: 24px;
     padding-bottom: 24px;
+}
+/* h1 header */
+#single-column h1 {
+    color: red;
+    font-size: 46px;
+    font-weight: bolder;
+}
+/* h3 headers */
+#single-column h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* line break */
+
+#line-break {
+    border-bottom: 3px solid red;
+    padding: 4px 0px 4px 0px;
 }
