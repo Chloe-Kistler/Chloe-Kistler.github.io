@@ -15,6 +15,10 @@ body {
     text-align: center;
 }
 
+p {
+    color: black;
+}
+
 .content-container img {
     width: 100%;
 }
@@ -24,7 +28,7 @@ body {
 }
 
 .content-container h2 {
-    font-size: 48px;
+    font-size: 56px;
 }
 
 .content-container p,
@@ -41,9 +45,7 @@ h4 {
 }
 
 .outer-container .content-container h2,
-.outer-container .content-container h4,
-.outer-container .content-container p,
-.outer-container .content-container a {
+.outer-container .content-container h4 {
     padding: auto;
     color: white;
 }
@@ -53,16 +55,12 @@ h4 {
 }
 
 .inner-container-white .content-container h2,
-.inner-container-white .content-container h4,
-.inner-container-white .content-container p,
-.inner-container-white .content-container a {
+.inner-container-white .content-container h4 {
     color: rgb(225, 133, 21);
 }
 
 .inner-container-orange .content-container h2,
-.inner-container-orange .content-container h4,
-.inner-container-orange .content-container p 
-.inner-container-orange .content-container a {
+.inner-container-orange .content-container h4 {
     color: white;
 }
 
@@ -71,12 +69,34 @@ h4 {
 }
 
 .outer-container-white .content-container h2,
-.outer-container-white .content-container h4,
-.outer-container-white .content-container p,
-.content-container .content-container a {
+.outer-container-white .content-container h4 {
     color: rgb(225, 133, 21);
 }
 
 .outer-container-white {
     background-color: white;
+}
+
+.orange-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(225, 133, 21);
+    font-size: 16px;
+    padding: 16px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.white-button {
+    text-decoration: none;
+    color: rgb(225, 133, 21);
+    background-color: white;
+    font-size: 16px;
+    padding: 16px;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: inline-block;
 }
