@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.outer-container {
+    background-color: orange;
+}
+
+.content-container {
+    width: 700px;
+    margin: 0px auto;
+    padding: 48px 24px;
+}
+
+.content-container img {
+    width: 100%;
+}

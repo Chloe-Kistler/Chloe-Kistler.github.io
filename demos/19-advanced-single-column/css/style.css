@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-outer-container {
+    background-color: lightblue;
+    padding: 48px 24px;
+}
+
+.dark-outer-container {
+    background-color: darkblue;
+    padding: 48px 24px;
+    color: white;
+}
+/* google font plug-ins */
+h2 {
+    font-family: "Zen Tokyo Zoo", system-ui;
+    font-size: 48px;
+}
+
+p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 18px;
+}
