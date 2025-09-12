@@ -8,15 +8,54 @@ body {
 }
 
 .outer-container {
-    background-color: orange;
+    background-color: rgb(225, 133, 21);
 }
 
 .content-container {
     width: 700px;
     margin: 0px auto;
     padding: 48px 24px;
+    text-align: center;
 }
 
 .content-container img {
     width: 100%;
 }
+
+.content-container h4 {
+    font-size: 18px;
+}
+
+.content-container h2 {
+    font-size: 36px;
+}
+
+.outer-container .content-container h2,
+h4,
+p,
+a {
+    padding: auto;
+    color: white;
+}
+
+.inner-container-white .content-container {
+    color: rgb(225, 133, 21);
+    background-color: white;
+}
+
+.inner-container-orange .content-container h2,
+h2,
+p {
+    color: white;
+}
+
+.inner-container-orange {
+    background-color: rgb(225, 133, 21);
+}
+
+.outer-container-white .content-container h2,
+h4,
+p {
+    color: rgb(225, 133, 21);
+}
+
