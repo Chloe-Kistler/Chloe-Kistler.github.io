@@ -31,21 +31,28 @@ body {
 }
 
 .outer-container .content-container h2,
-h4,
-p,
-a {
+.outer-container .content-container h4,
+.outer-container .content-container p,
+.outer-container .content-container a {
     padding: auto;
     color: white;
 }
 
 .inner-container-white .content-container {
-    color: rgb(225, 133, 21);
     background-color: white;
 }
 
+.inner-container-white .content-container h2,
+.inner-container-white .content-container h4,
+.inner-container-white .content-container p,
+.inner-container-white .content-container a {
+    color: rgb(225, 133, 21);
+}
+
 .inner-container-orange .content-container h2,
-h2,
-p {
+.inner-container-orange .content-container h4,
+.inner-container-orange .content-container p 
+.inner-container-orange .content-container a {
     color: white;
 }
 
@@ -54,8 +61,8 @@ p {
 }
 
 .outer-container-white .content-container h2,
-h4,
-p {
+.outer-container-white .content-container h4,
+.outer-container-white .content-container p,
+.content-container .content-container a {
     color: rgb(225, 133, 21);
 }
-
