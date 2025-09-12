@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -5,10 +6,6 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-}
-
-.outer-container {
-    background-color: rgb(225, 133, 21);
 }
 
 .content-container {
@@ -27,7 +24,20 @@ body {
 }
 
 .content-container h2 {
-    font-size: 36px;
+    font-size: 48px;
+}
+
+.content-container p,
+h4 {
+    font-family: "Roboto Mono", monospace;
+}
+
+.content-container h2 {
+    font-family: "Jolly Lodger", system-ui;
+}
+
+.outer-container {
+    background-color: rgb(225, 133, 21);
 }
 
 .outer-container .content-container h2,
@@ -38,7 +48,7 @@ body {
     color: white;
 }
 
-.inner-container-white .content-container {
+.inner-container-white {
     background-color: white;
 }
 
@@ -65,4 +75,8 @@ body {
 .outer-container-white .content-container p,
 .content-container .content-container a {
     color: rgb(225, 133, 21);
+}
+
+.outer-container-white {
+    background-color: white;
 }
