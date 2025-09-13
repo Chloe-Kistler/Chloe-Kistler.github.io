@@ -7,7 +7,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
+/* MAIN CONTENT CSS */
 .content-container {
     width: 700px;
     margin: 0px auto;
@@ -39,7 +39,7 @@ h4 {
 .content-container h2 {
     font-family: "Jolly Lodger", system-ui;
 }
-
+/* FIRST CONTAINER */
 .outer-container {
     background-color: rgb(225, 133, 21);
 }
@@ -49,7 +49,7 @@ h4 {
     padding: auto;
     color: white;
 }
-
+/* SECOND CONTAINER */
 .inner-container-white {
     background-color: white;
 }
@@ -58,7 +58,7 @@ h4 {
 .inner-container-white .content-container h4 {
     color: rgb(225, 133, 21);
 }
-
+/* THIRD CONTAINER */
 .inner-container-orange .content-container h2,
 .inner-container-orange .content-container h4 {
     color: white;
@@ -67,7 +67,7 @@ h4 {
 .inner-container-orange {
     background-color: rgb(225, 133, 21);
 }
-
+/* FOURTH */
 .outer-container-white .content-container h2,
 .outer-container-white .content-container h4 {
     color: rgb(225, 133, 21);
@@ -76,7 +76,7 @@ h4 {
 .outer-container-white {
     background-color: white;
 }
-
+/* BUTTONS */
 .orange-button {
     text-decoration: none;
     color: white;
