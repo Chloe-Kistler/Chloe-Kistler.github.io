@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    max-width: 800px;
+    margin: 36px auto;
+    border: 3px solid purple;
+}
+
+#side-by-side-1 {
+    display: flex;
+    /* align-items affect the vertical space. */
+    align-items: center;
+}
+
+#side-by-side-1 img {
+    width: 50%;
+}
+
+#side-by-side-1 h2 {
+    font-size: 60px;
+}
+
+#side-by-side-2 {
+    display: flex;
+    align-items: center;
+    /* gap= space between content in flexboxes */
+    gap: 36px;
+}
+
+#side-by-side-2 .image-container {
+    flex: 1;
+}
+/* 
+flex property tells the element to fill the 
+available space and "melt" to make things more
+fluid. using just flex properties (more than 1) requires some fractions
+and math... the flex values will work with each other 
+over the amount of space being taken... a width property and flex property 
+makes the width more rigid and the flex value will be the one to
+become like an ice cube and melt the available space.
+*/
+#side-by-side-2 .text-container {
+    flex: 2;
+}
+
+#side-by-side-2 .image-container img {
+    width: 100%;
+}
