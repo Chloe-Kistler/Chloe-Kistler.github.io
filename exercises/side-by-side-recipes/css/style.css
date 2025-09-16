@@ -79,7 +79,11 @@ body {
 
 h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 32px;
 }
  
 label {
@@ -88,4 +92,12 @@ label {
 .button:hover {
     background-color: wheat;
     color: black;
+}
+
+h3, h4 {
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 20px;
 }
