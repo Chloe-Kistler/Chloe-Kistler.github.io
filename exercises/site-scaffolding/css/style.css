@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Henny+Penny&family=Wellfleet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Wellfleet", serif;
+}
+
+#navbar {
+    display: flex;
+    background: linear-gradient(
+        to bottom, 
+        rgb(241, 169, 0), 
+        rgb(251, 232, 67)
+        );
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    color:white;
+    text-decoration: none;
+    padding: 24px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+    font-family: "Henny Penny", system-ui;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 16px auto 16px 16px;
+}
+
+#navbar .list-items,
+.cta-button {
+    font-size: 20px;
+}
+
+#homepage-content h1 {
+    text-align: center;
+    font-family: "Henny Penny", system-ui;
+    font-size: 52px;
+    color: rgb(241, 169, 0);
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: rgb(241, 169, 0);
+    padding: 16px 24px;
+    min-width: 150px;
+    text-align: center;
+    margin: 0px 24px;
+    border-radius: 36px;
+}
