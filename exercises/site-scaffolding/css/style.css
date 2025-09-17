@@ -15,7 +15,7 @@ body {
         to bottom, 
         rgb(241, 169, 0), 
         rgb(251, 232, 67)
-        );
+    );
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -23,7 +23,7 @@ body {
 }
 
 #navbar a {
-    color:white;
+    color: white;
     text-decoration: none;
     padding: 24px;
 }
@@ -33,7 +33,6 @@ body {
     font-family: "Henny Penny", system-ui;
     font-size: 52px;
     font-weight: bold;
-    margin: 16px auto 16px 16px;
 }
 
 #navbar .list-items,
