@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* header CSS */
+#header {
+    font-size: 52px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+    padding-bottom: 12px;
+}
+
+#header #m {
+    color: red;
+}
+
+#header #e {
+    color: rgb(40, 81, 245);
+}
+
+#header #b {
+    color: rgb(229, 229, 4);
+}
+
+#header #a {
+    color: green;
+}
+
+#header #y {
+    color: orange;
+}
+
+/* three columns CSS */
+#three-columns {
+    display: flex;
+    margin: 0px auto;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 0px 36px;
+}
+/* thumbnail column CSS */
+#thumbnail-column {
+    width: 100px;
+}
+
+#thumbnail-column .image-container img {
+    width: 100%;
+    /* height: 100%; */
+    /* border-radius: 4px; */
+}
+
+#thumbnail-column .image-container {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    align-items: center;
+    padding: 12px;
+    margin: 12px;
+}
+/* main image column CSS */
+#main-image-column {
+    flex: 1;
+   
+}
+
+#main-image-column img {
+    width: 100%; 
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+}
+/* sidebar column CSS */
+#sidebar-column {
+    width: 450px;
+    padding: 0px 28px;
+}
+
+/* seller image and info CSS */
+
+#product-info-container {
+    display: flex;
+}
+
+#sidebar-column h1 {
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 16px;
+}
+
+#sidebar-column #product-info-container {
+    display: flex;
+    border: 1px solid lightgrey;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 20px 0px;
+    margin: 20px 0px;
+    gap: 16px;
+    font-size: 16px;
+    line-height: 28px;
+    align-items: center;
+    color: rgb(168, 167, 167);
+}
+
+#sidebar-column #product-info-container a {
+    color: black;
+}
+
+#sidebar-column #price h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+#sidebar-column #price h5 {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: normal;
+    color: rgb(168, 167, 167);
+}
+
+#sidebar-column #price span {
+    margin-top: 16px;
+    display: block;
+}
+
+#sidebar-column #quantity {
+    margin: 16px 0px;
+}
+
+#sidebar-column #price a {
+    color: black;
+}
+
+#sidebar-column .quantity-container {
+    display: inline-block;
+    border: 1px solid rgb(168, 167, 167);
+    padding: 16px;
+    border-radius: 16px;
+    min-width: 68px;
+}
+
+#sidebar-column #buttons a {
+    display: block;
+    border-radius: 24px;
+    text-align: center;
+    margin: 10px 0px;
+    text-decoration: none;
+    padding: 16px 12px;
+}
+
+#sidebar-column #buttons a.sub-buttons {
+    color: rgb(0, 123, 255);
+    border: 1px solid rgb(0, 123, 255);
+}
+
+#sidebar-column #buttons a#buy-now {
+    background-color: rgb(0, 123, 255);
+    color: white;
+}
+
+#sidebar-column #buttons {
+    margin-top: 20px;
+}
+
+#sidebar-column #buttons a.sub-buttons:hover {
+    background-color: rgba(0, 123, 255, 0.326)
+}
+
+#sidebar-column #buttons a#buy-now:hover {
+    
+    background-color: rgba(0, 123, 255, 0.326);
+}
