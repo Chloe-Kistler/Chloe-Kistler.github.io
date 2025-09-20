@@ -119,17 +119,25 @@ body {
 }
 
 #sidebar-column #price h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px;
     font-weight: normal;
     color: rgb(168, 167, 167);
 }
 
-#sidebar-column #price span {
+#sidebar-column #price #klarna-offer {
     margin-top: 16px;
     display: block;
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
+}
+
+#sidebar-column #price #klarna-offer span {
+    font-weight: bold;
+}
+
+#sidebar-column #price p span {
+    font-weight: bold;
 }
 
 #sidebar-column #quantity {
