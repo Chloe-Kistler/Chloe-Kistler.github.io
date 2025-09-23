@@ -98,4 +98,5 @@ body {
 #bottom-content h4#questions {
     color: gold;
     text-shadow: 0px 2px 8px black;
+    margin-bottom: 24px;
 }
