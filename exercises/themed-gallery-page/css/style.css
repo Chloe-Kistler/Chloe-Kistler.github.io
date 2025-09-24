@@ -6,6 +6,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgba(245, 222, 179, 0.445);
 }
 
 #hero-container {
