@@ -38,7 +38,7 @@ body {
 
 #layout {
     max-width: 900px;
-    margin: 48px auto;
+    margin: 60px auto;
     text-align: center;
     background-color: rgba(156, 60, 1, 0.714);
     padding: 24px;
@@ -53,4 +53,14 @@ body {
 #gallery img {
     width: 100%;
     margin-bottom: 16px;
+}
+
+#gallery img.tall {
+    height: 400px;
+    object-fit: cover;
+}
+
+#gallery img.small {
+    height: 200px;
+    object-fit: cover;
 }
