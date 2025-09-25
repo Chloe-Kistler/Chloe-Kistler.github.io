@@ -9,6 +9,33 @@ body {
     background-color: rgba(245, 222, 179, 0.445);
 }
 
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(156, 60, 1, 0.714);
+}
+
+#navbar h2 {
+    font-size: 52px;
+    color: rgba(245, 222, 179, 0.445);
+    text-shadow: 0px 2px 4px rgba(156, 60, 1, 0.714);
+    padding-left: 24px;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(156, 61, 1);
+    font-size: 20px;
+    padding: 0px 36px;
+    font-weight: bold;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
 #hero-container {
     background-image: url(../images/adventure-hero.jpg);
     background-size: cover;
@@ -64,4 +91,62 @@ body {
 #gallery img.small {
     height: 200px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 1090px) {
+    body {
+        background-color: gold;
+    }
+
+    #navbar a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: aqua;
+    }
+
+    #navbar h2 {
+        font-size: 44px;
+    }
+
+    #navbar a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 915px) {
+    body {
+        background-color: bisque;
+    }
+
+    #navbar {
+        flex-wrap: wrap;
+    }
+
+    #navbar h1 {
+        font-size: 12px;
+    }
+
+    #gallery {
+        columns: 2 auto;
+    }
+
+    #gallery img.tall {
+    height: 300px;
+    object-fit: cover;
+    }
+
+    #gallery img.small {
+    height: 150px;
+    object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #gallery {
+        columns: 1 auto;
+    }
 }
