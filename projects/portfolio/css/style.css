@@ -160,9 +160,6 @@ body {
 /* MEDIA Queries CSS */
 
 @media screen and (max-width: 815px) {
-    body {
-        background-color: aqua;
-    }
 
     #navbar .nav-links {
         padding-right: 24px;
@@ -178,9 +175,6 @@ body {
 }
 
 @media screen and (max-width: 760px) {
-    body {
-        background-color: beige;
-    }
 
     #cards-container {
         display: flex;
