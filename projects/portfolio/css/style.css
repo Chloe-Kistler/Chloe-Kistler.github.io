@@ -56,12 +56,13 @@ body {
 #hero {
     background-image: url(../images/hero.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     height: 70vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 15%;
+    box-shadow: 0px 2px 4px #262626;
 }
 
 #hero .hero-content {
@@ -69,7 +70,7 @@ body {
     text-align: center;
 }
 
-#hero .hero-content a {
+#hero .hero-content h2 {
     font-size: 4vw;
     text-shadow: 0px 2px 4px #262626;
     font-family: "Anta", sans-serif;
@@ -112,6 +113,7 @@ body {
 #gallery img {
     width: 100%;
     margin-bottom: 24px;
+    box-shadow: 0px 4px 16px #262626;
 }
 
 /* CARDS css */
@@ -131,7 +133,6 @@ body {
     margin: 36px 24px;
     box-shadow: 0px 0px 18px black;
     width: 300px;
-    border-radius: 12px;
 }
 
 .card img {
@@ -183,6 +184,14 @@ body {
         justify-content: center;
         margin: 32px 0px;
     }
+
+     #hero .hero-content h2 {
+        font-size: 6vw;
+    }
+
+    #hero .hero-content #cta-button {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 695px) {
@@ -194,6 +203,14 @@ body {
 
     .nav-links div {
         padding: 8px 8px;
+    }
+
+    #hero .hero-content h2 {
+        font-size: 6vw;
+    }
+
+    #hero .hero-content #cta-button {
+        font-size: 2vw;
     }
 }
 
@@ -211,5 +228,17 @@ body {
     #gallery img {
         width: 100%;
         margin-bottom: 12px;
+    }
+
+     #hero .hero-content h2 {
+        font-size: 7vw;
+    }
+
+    #hero .hero-content #cta-button {
+        font-size: 4vw;
+    }
+
+    .card {
+        width: 600px;
     }
 }
