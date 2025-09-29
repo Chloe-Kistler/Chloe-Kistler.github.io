@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Teko:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-main-content {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+/* DISCOUNT BANNER css */
+#discount-banner {
+    background-color: #8c33ff;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+}
+
+#discount-banner #discount-banner-link {
+    color: orange;
+    font-size: 28px;
+    font-family: "Teko", sans-serif;
+}
+
+#discount-banner span {
+    color: white; 
+    padding-left: 10px;
+}
+
+/* SEARCH BAR css */
+
+.search {
+    /* 
+        css property thats allows the 
+        same padding value in multiple places.
+        (does nothing by itself)
+    */
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    transition: box-shadow 0.15s
+    
+    /* var is the value to activate the new css property */
+}
+
+/* 
+    :focus-within tells the transition to do this 
+    when the action is within this 
+*/
+.search:focus-within {
+    box-shadow: 0 0 2px #6f00ff;
+}
+
+.search-input {
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 450px;
+}
+
+.search-input::placeholder,
+.search-icon {
+    /* :: targets placeholder text */
+    color: #6f00ff76;
+}
+
+/* TOP NAV css */
+
+#top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 20px;
+    padding: 16px 0px;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+#top-nav .logo-link {
+    color: #6400e6;
+    text-decoration: none;
+    font-family: "Bruno Ace", sans-serif;
+    font-size: 36px;
+    padding: 0px;
+}
+
+#top-nav form {
+    padding: 0px 48px;
+}
+
+#top-nav a {
+    padding: 0px 16px;
+}
+
+#top-nav .top-nav-link {
+    font-family: "Teko", sans-serif;
+    text-decoration: none;
+    color: #6f00ff;
+    font-size: 24px;
+}
+
+#top-nav .top-nav-link-icon {
+    color: #6f00ff;
+    font-size: 20px;
+}
+
+#top-nav .top-nav-link:hover {
+    color: #4c01ae;
+}
+
+#top-nav .top-nav-link-icon:hover {
+    color: #4c01ae;
+}
+
+/* BOTTOM NAV css */
+
+#bottom-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px; 
+    border-bottom: 1px solid lightgray;
+}
+
+#bottom-nav .bottom-nav-links {
+    text-decoration: none;
+    color: #7e1ffb;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 32px;
+   
+}
+
+#bottom-nav .bottom-nav-links:hover {
+    color: #4c01ae;
+}
+
+/* HERO css */
+
+#hero {
+    background-image: url(../images/e-commerce-hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hero-content {
+    text-align: center;
+    color: rgb(255, 166, 0);
+    padding: 6%;
+}
+
+.hero-content h2 {
+    font-size: 2.5vw;
+    text-shadow: 0px 2px 4px #6f00ff;
+    margin: 0px;
+    margin-bottom: 12px;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+.hero-content #percent-off-line {
+    margin: 0px;
+    margin-bottom: 12px;
+}
+
+.hero-content .hero-button {
+    display: inline-block;
+    background-color: rgb(255, 166, 0);
+    border: 1px solid #8c33ff;
+    text-decoration: none;
+    color: #8c33ff;
+    padding: 12px 64px;
+    margin-top: 12px;
+    font-family: "Teko", sans-serif;
+    border-radius: 28px;
+    font-size: 1.5vw;
+    box-shadow: 0px 1px 8px #6f00ff;
+}
+
+/* RECENTLY VIEWED CONTENT css */
+
+.content-row-container {
+    /* display: flex;  */
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0px;
+    padding-top: 48px;
+}
+
+.row-image-content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+
+.row-image-content img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0px 0px 12px #8c33ff;
+}
+
+.content-row-container #row-text-content span {
+    font-size: 36px;
+    font-family: "Teko", sans-serif;
+    color: #6400e6;
+}
+
+#image-button-container {
+    position: relative;
+    width: 50%;
+}
+
+#image-button-container .image-button {
+    position: absolute;
+    top: 82.5%;
+    left: 62.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 24px;
+    background-color: white;
+    color: #6f00ff;
+    border: 0px none;
+    border-radius: 28px;
+    text-align: center;
+}
+
+/* CARD css */
+
+#content-cards {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding: 48px 0px;
+     
+}
+
+#content-cards .card-image {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0px 0px 12px #8c33ff;
+}
