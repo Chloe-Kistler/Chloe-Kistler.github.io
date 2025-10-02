@@ -428,6 +428,7 @@ body {
 #footer .about-footer {
     display: grid;
     grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
     padding-top: 24px;
     padding-left: 24px;
     gap: 24px;
