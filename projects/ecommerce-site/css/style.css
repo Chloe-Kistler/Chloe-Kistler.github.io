@@ -91,6 +91,8 @@ body {
     position: sticky;
     top: 0%;
     background-color: white;
+    z-index: 10;
+    /* z-index basically  */
 }
 
 #top-nav .logo-link {
@@ -164,6 +166,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 28px;
 }
 
 .hero-content {
@@ -212,7 +216,7 @@ body {
 .row-image-content {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 24px;
     padding-bottom: 36px;
     padding-top: 36px;
 }
@@ -222,12 +226,14 @@ body {
     height: 200px;
     object-fit: cover;
     box-shadow: 0px 0px 12px #8c33ff;
+    border-radius: 28px;
 }
 
-.content-row-container #row-text-content span {
+.content-row-container #row-text-content h3 {
     font-size: 36px;
     font-family: "Teko", sans-serif;
     color: #6400e6;
+    margin-bottom: 0px;
 }
 
 #image-button-container {
@@ -238,7 +244,7 @@ body {
 #image-button-container .image-button {
     position: absolute;
     top: 82.5%;
-    left: 62.5%;
+    left: 70.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     padding: 12px 24px;
@@ -246,7 +252,9 @@ body {
     color: #6f00ff;
     border: 0px none;
     border-radius: 28px;
+    border: 1px solid #8c33ff;
     text-align: center;
+    cursor: pointer;
 }
 
 /* CARD css */
@@ -254,14 +262,148 @@ body {
 #content-cards {
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 68px;
     padding: 48px 0px;
+    margin-top: 100px;
      
 }
 
 #content-cards .card-image {
-    width: 300px;
+    width: 350px;
     height: 500px;
     object-fit: cover;
     box-shadow: 0px 0px 12px #8c33ff;
+    border-radius: 28px;
+}
+
+#card-container #card-button-container {
+    position: relative;
+    width: 50%;
+}
+
+#card-button-container .card-button {
+    position: absolute;
+    top: 82.5%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 12px 36px;
+    background-color: white;
+    color: #6f00ff;
+    border: 0px none;
+    border-radius: 28px;
+    border: 1px solid #8c33ff;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* EXPLORE CONTENT css */
+
+.explore-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+
+.explore-card-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+#explore-more-container h3 {
+    font-size: 36px;
+    font-family: "Teko", sans-serif;
+    color: #6400e6;
+}
+
+.explore-content-card {
+    background-color: white;
+    border: 1px solid #6400e6;
+    box-shadow: 0px 0px 12px #8c33ff;
+    border-radius: 28px;
+    width: 205px;
+    position: relative;
+    width: 50%;
+}
+
+.explore-content-card h4 {
+    padding-left: 12px;
+    padding-top: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-family: "Teko", sans-serif;
+}
+
+.explore-content-card span {
+    display: block;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+.explore-content-card .free-shipping {
+    font-family: "Teko", sans-serif;
+    font-weight: light;
+    font-size: 16px;
+    color: #c79cff;
+}
+
+.explore-content-card .author {
+    font-family: "Teko", sans-serif;
+    font-size: 18px;
+    color: #6400e6;
+}
+
+.explore-content-card .card-amount {
+    color: #4c01ae;
+}
+
+.explore-content-card .favs-button {
+    position: absolute;
+    top: 55.5%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 32px;
+    color: #8942e7;
+    text-shadow:  0px 0px 2px #6f00ff;
+}
+
+.explore-content-card .explr-card-txt-content {
+    padding-left: 5px;
+    padding-bottom: 18px;
+}
+
+/* GALLERY css */
+
+#content-gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 700px;
+    padding: 24px;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+#content-gallery-container .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 2px 12px #6f00ff;
+}
+
+.shop-exclusives {
+    font-size: 36px;
+    font-family: "Teko", sans-serif;
+    color: #6400e6;
+    margin-top: 100px;
+    margin-bottom: 0px;
 }
